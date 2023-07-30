@@ -1,8 +1,6 @@
-# Terraform Modules: KMS
+# Environment: Distributions
 
-A Terraform module for deploying a KMS key and policy.
-
-Refer to [hosted docs]() for more information regarding this module.
+A Terraform project for deploying the infrastructure that supports the [Cumberland Cloud Web Portal]().
 
 ## Quickstart
 
