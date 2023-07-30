@@ -2,7 +2,7 @@ terraform {
     backend "s3" {
         bucket          = "cumberland-cloud-gateway-terraform-state"
         dynamodb_table  = "cumberland-cloud-gateway-terraform-lock"
-        encrypted       = true
+        encrypt         = true
         key             = "terraform.tfstate"
         region          = "us-east-1"
     }
